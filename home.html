@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2116baf6f6.js" crossorigin="anonymous"></script>
+
+    <!-- OWL carousel -->
+    <link rel="stylesheet" href="./owlcarousel/css/owl.carousel.min.css">
+
+    <title>MiRyde</title>
+</head>
+<body class="white-bg">
+    <div class="container-fluid sticky-top bg-white shadow">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./images/mirydelogo.png" alt="" class="img-fluid" width="100px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./login.html">Login</a>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="./signup.html">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+    </div>
+
+    <!-- user location -->
+    <div class="bg-dark p-2 d-flex text-light">
+        <div class="container">
+            <i class="fa-solid fa-location-crosshairs"></i><span class="mx-2">Accra, Ghana</span> | Saturday, 8 Nov
+        </div>
+        
+    </div>
+
+
+    <!-- content section -->
+    <div class="container mt-4">
+        <div class="row ">
+            <div class="col-md-4 shadow p-3 rounded">
+                <div class="">
+                    <div class="d-flex flex-wrap p-2 text-center gap-2 justify-content-between mb-3">
+                        <div>
+                            <img src="./images/stc_logo.png" alt="" width="50px" class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="./images/stc_logo.png" alt="" width="50px" class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="./images/stc_logo.png" alt="" width="50px" class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="./images/stc_logo.png" alt="" width="50px" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="p-2 border rounded">
+                        <h5 class="text-blue fw-bold">Buy Bus Tickets</h5>
+
+                        <div class="d-flex justify-content-between my-2">
+                            <small class="text-muted">Search for suitable bus</small>
+                            <small><a href="">How to buy ticket</a></small>
+                        </div>
+                        <form class="rounded bg-white">
+                            <div class="d-flex px-2 py-1 align-items-center">
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                                <input type="text" class="w-100 border-0 mx-2" placeholder="From" id="from">
+                            </div>
+                            <hr class="mx-2">
+
+                            <div class="d-flex px-2 py-1 align-items-center">
+                                <i class="fa-solid fa-flag"></i>
+                                <input type="text" class="w-100 border-0 mx-2" placeholder="To" id="to">
+                            </div>
+
+                            <div class="d-flex p-3 align-items-center">
+                                <input type="date" class="w-100 border-0 mx-2 w-75" placeholder="To" id="to">
+                                <input type="number" class="w-100 border-0 mx-2" placeholder="No. of Persons" id="to">
+                            </div>
+
+                            <div class="p-2">
+                                <button class="btn-success btn-blue btn w-100"><a href="search.html" class="nav-link">Find Bus</a></button>
+                            </div>
+                        </form>
+                        
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- next section -->
+            <div class="col-md-8">
+                <div class="owl-carousel mb-4 w-25">
+                    <div class="item rounded-2 overflow-hidden">
+                        <img src="./images/bus-png-4.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="item rounded-2 overflow-hidden">
+                        <img src="./images/bus.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="item rounded-2 overflow-hidden p-0">
+                        <img src="./images/tourbus.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                </div>
+
+                <div class="p-1 my-3">
+                    <p class="fw-bold m-0">Recent Search</p>
+                    <small class="text-muted">Find your recent searches here</small>
+                    <div class="owl-carousel my-1 ">
+                        <div class="item rounded-3 border">
+                            <p class="m-0 fw-bold">Tamale to Accra</p>
+                            <small class="text-muted">3rd January</small><br>
+                            <a href="#" class="d-block nav-link text-right text-blue">Book Now</a>
+                        </div>
+                        <div class="item rounded-3 border p-2">
+                            <p class="m-0 fw-bold">Kumasi to Accra</p>
+                            <small class="text-muted">3rd January</small><br>
+                            <a href="#" class="d-block nav-link text-right text-blue">Book Now</a>
+                        </div>
+                        <div class="item rounded-3 border p-2">
+                            <p class="m-0 fw-bold">Sunyani to Accra</p>
+                            <small class="text-muted">3rd January</small><br>
+                            <a href="#" class="d-block nav-link text-right text-blue">Book Now</a>
+                        </div>
+                        <div class="item rounded-3 border p-2">
+                            <p class="m-0 fw-bold">Bolga to Accra</p>
+                            <small class="text-muted">3rd January</small><br>
+                            <a href="#" class="d-block nav-link text-right text-blue">Book Now</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <script src="./owlcarousel/js/owl.carousel.min.js"></script>
+
+    <script src="./script.js"></script>
+  
+    
+</body>
+</html>

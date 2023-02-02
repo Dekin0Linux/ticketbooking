@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/style.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2116baf6f6.js" crossorigin="anonymous"></script>
+
+    <!-- OWL carousel -->
+    <link rel="stylesheet" href="./owlcarousel/css/owl.carousel.min.css">
+
+    <title>MiRyde</title>
+</head>
+<body class="white-bg">
+    <div class="container-fluid sticky-top bg-white shadow">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="home.html"><img src="./images/mirydelogo.png" alt="" class="img-fluid" width="100px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+    </div>
+
+    <!-- user location -->
+    <div class="bg-dark p-2 d-flex text-light">
+        <div class="container">
+            <i class="fa-solid fa-location-crosshairs"></i><span class="mx-2">Accra, Ghana</span> | Saturday, 8 Nov
+        </div>
+        
+    </div>
+
+
+    <!-- content section -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-2 ">
+                <div class="shadow-1 p-3 rounded">
+                    <div class="owl-carousel mb-4">
+                        <div class="item rounded-2 overflow-hidden">
+                            <img src="./images/bus-png-4.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="item rounded-2 overflow-hidden">
+                            <img src="./images/bus.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="item rounded-2 overflow-hidden p-0">
+                            <img src="./images/tourbus.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <!-- check -->
+                    <form action="">
+                        <label for="" class="text-warning fw-bold">Quick Filter</label><br>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">All Bus</span>
+                        </div>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">AC Bus</span>
+                        </div>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">Non-AC</span>
+                        </div>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">Sleeper</span>
+                        </div>
+                        <!-- section 1 -->
+                        <label for="" class="text-warning fw-bold">Operators</label><br>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">All Bus</span>
+                        </div>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">AC Bus</span>
+                        </div>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">Non-AC</span>
+                        </div>
+                        <div class="my-2">
+                            <input type="checkbox" name="filter" id=""><span class="mx-2">Sleeper</span>
+                        </div>
+                        
+                    </form>
+                </div>
+                
+            </div>
+
+            <!-- next section -->
+            <div class="col-md-10 ">
+                <div class="row bg-white rounded p-2 mb-2 bg-danger shadow-sm">
+                    <div class="col-md-10">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="overflow-hidden p-2">
+                                <img src="./images/stc_logo.png" alt="" class="img-fluid" width="50px">
+                            </div>
+                            <div class="mx-2">
+                                <p class="m-0 p-0 fw-bold small-text">STC</p>
+                                <div class="d-flex ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <small class="text-muted small-text">Coach No. 5698 AC</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-5">
+                            <div>
+                                <small class="text-muted ">Depature</small><br>
+                                <small class="fw-bold small-text">09:00 AM</small>
+                            </div>
+                            <div>
+                                <small class="text-muted ">Arrival</small><br>
+                                <small class="fw-bold small-text">02:00 PM</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 bg-light p-2 ">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <p class="p-0 m-0 fw-bold">GHC 300</p>
+                            <small class="text-muted small-text">No. Of Person: 1</small>
+                            <a class="btn btn-blue p-0 small-text" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Book Ticket
+                              </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="row bg-white rounded p-2 mb-2 shadow-sm">
+                    <div class="col-md-10">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="overflow-hidden p-2">
+                                <img src="./images/shaq.png" alt="" class="img-fluid" width="50px">
+                            </div>
+                            <div class="mx-2">
+                                <p class="m-0 p-0 fw-bold small-text">Shaq Express</p>
+                                <div class="d-flex ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <small class="text-muted small-text">Coach No. 2648 AC</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-5">
+                            <div>
+                                <small class="text-muted ">Depature</small><br>
+                                <small class="fw-bold small-text">09:00 AM</small>
+                            </div>
+                            <div>
+                                <small class="text-muted ">Arrival</small><br>
+                                <small class="fw-bold small-text">02:00 PM</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 bg-light p-2 ">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <p class="p-0 m-0 fw-bold">GHC 250</p>
+                            <small class="text-muted small-text">No. Of Person: 1</small>
+                            <a class="btn btn-blue p-0 small-text" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Book Ticket
+                              </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="row bg-white rounded p-2 mb-2 shadow-sm">
+                    <div class="col-md-10">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="overflow-hidden p-2">
+                                <img src="./images/logo4.png" alt="" class="img-fluid" width="50px">
+                            </div>
+                            <div class="mx-2">
+                                <p class="m-0 p-0 fw-bold small-text">Explore blue</p>
+                                <div class="d-flex ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <small class="text-muted small-text">Coach No. 3501 AC</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-5">
+                            <div>
+                                <small class="text-muted ">Depature</small><br>
+                                <small class="fw-bold small-text">09:00 AM</small>
+                            </div>
+                            <div>
+                                <small class="text-muted ">Arrival</small><br>
+                                <small class="fw-bold small-text">02:00 PM</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 bg-light p-2 ">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <p class="p-0 m-0 fw-bold">GHC 245</p>
+                            <small class="text-muted small-text">No. Of Person: 1</small>
+                            <a class="btn btn-blue p-0 small-text" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Book Ticket
+                              </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="row bg-white rounded p-2 mb-2 shadow-sm">
+                    <div class="col-md-10">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="overflow-hidden p-2">
+                                <img src="./images/logo3.png" alt="" class="img-fluid" width="50px">
+                            </div>
+                            <div class="mx-2">
+                                <p class="m-0 p-0 fw-bold small-text">Guliver Tours</p>
+                                <div class="d-flex ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <small class="text-muted small-text">Coach No. 7798 AC</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-5">
+                            <div>
+                                <small class="text-muted ">Depature</small><br>
+                                <small class="fw-bold small-text">09:00 AM</small>
+                            </div>
+                            <div>
+                                <small class="text-muted ">Arrival</small><br>
+                                <small class="fw-bold small-text">02:00 PM</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 bg-light p-2 ">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <p class="p-0 m-0 fw-bold">GHC 220</p>
+                            <small class="text-muted small-text">No. Of Person: 1</small>
+                            <a class="btn btn-blue p-0 small-text" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Book Ticket
+                              </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+
+                <div class="row bg-white rounded p-2 mb-2 shadow-sm">
+                    <div class="col-md-10">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="overflow-hidden p-2">
+                                <img src="./images/stc_logo.png" alt="" class="img-fluid" width="50px">
+                            </div>
+                            <div class="mx-2">
+                                <p class="m-0 p-0 fw-bold small-text">STC</p>
+                                <div class="d-flex ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <small class="text-muted small-text">Coach No. 5698 AC</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-5">
+                            <div>
+                                <small class="text-muted ">Depature</small><br>
+                                <small class="fw-bold small-text">09:00 AM</small>
+                            </div>
+                            <div>
+                                <small class="text-muted ">Arrival</small><br>
+                                <small class="fw-bold small-text">02:00 PM</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 bg-light p-2 ">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <p class="p-0 m-0 fw-bold">GHC 300</p>
+                            <small class="text-muted small-text">No. Of Person: 1</small>
+                            <a class="btn btn-blue p-0 small-text" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Book Ticket
+                              </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+
+                <div class="row bg-white rounded p-2 mb-2 shadow-sm">
+                    <div class="col-md-10">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="overflow-hidden p-2">
+                                <img src="./images/stc_logo.png" alt="" class="img-fluid" width="50px">
+                            </div>
+                            <div class="mx-2">
+                                <p class="m-0 p-0 fw-bold small-text">STC</p>
+                                <div class="d-flex ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <small class="text-muted small-text">Coach No. 5698 AC</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-5">
+                            <div>
+                                <small class="text-muted ">Depature</small><br>
+                                <small class="fw-bold small-text">09:00 AM</small>
+                            </div>
+                            <div>
+                                <small class="text-muted ">Arrival</small><br>
+                                <small class="fw-bold small-text">02:00 PM</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 bg-light p-2 ">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <p class="p-0 m-0 fw-bold">GHC 300</p>
+                            <small class="text-muted small-text">No. Of Person: 1</small>
+                            <a class="btn btn-blue p-0 small-text" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Book Ticket
+                              </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row bg-white rounded p-2 mb-2 shadow-sm">
+                    <div class="col-md-10">
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="overflow-hidden p-2">
+                                <img src="./images/stc_logo.png" alt="" class="img-fluid" width="50px">
+                            </div>
+                            <div class="mx-2">
+                                <p class="m-0 p-0 fw-bold small-text">STC</p>
+                                <div class="d-flex ratings">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <small class="text-muted small-text">Coach No. 5698 AC</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-5">
+                            <div>
+                                <small class="text-muted ">Depature</small><br>
+                                <small class="fw-bold small-text">09:00 AM</small>
+                            </div>
+                            <div>
+                                <small class="text-muted ">Arrival</small><br>
+                                <small class="fw-bold small-text">02:00 PM</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 bg-light p-2 ">
+                        <div class="d-flex flex-column justify-content-between h-100">
+                            <p class="p-0 m-0 fw-bold">GHC 300</p>
+                            <small class="text-muted small-text">No. Of Person: 1</small>
+                            <a class="btn btn-blue p-0 small-text" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                Book Ticket
+                              </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- OFF canvas -->
+    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header p-1">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Trip Info</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <hr class=" my-0">
+        <div class="offcanvas-body">
+            <div class="">
+                <p class="fw-bold">Amenities</p>
+                <div class="d-flex flex-wrap align-items-center p-3 gap-3">
+                    <div class="text-center ">
+                        <i class="fa-solid fa-wifi"></i>
+                        <p class="small-text text-muted">Wifi</p>
+                    </div>
+                    <div class="text-center mx-2">
+                        <i class="fa-solid fa-battery-full"></i>
+                        <p class="small-text text-muted">Charge Phone</p>
+                    </div>
+                    <div class="text-center mx-2">
+                        <i class="fa-solid fa-tv"></i>
+                        <p class="small-text text-muted">Movie</p>
+                    </div>
+                    <div class="text-center mx-2">
+                        <i class="fa-solid fa-wind"></i>
+                        <p class="small-text">AC</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-chair-office"></i>
+                        <p class="small-text">Seat</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <p class="small-text">Reading Light</p>
+                    </div>
+                
+                </div>
+            </div>
+
+            <div>
+                <p class="fw-bold my-2">Photos</p>
+                <div class="owl-carousel mb-2">
+                    <div class="item rounded-2 overflow-hidden h-25">
+                        <img src="./images/1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="item rounded-2 overflow-hidden h-25">
+                        <img src="./images/2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="item rounded-2 overflow-hidden h-25">
+                        <img src="./images/3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="item rounded-2 overflow-hidden h-25">
+                        <img src="./images/4.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div>
+                <p class="fw-bold my-2">Select Seat</p>
+                <div class="">
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="overflow-hidden p-2">
+                            <img src="./images/stc_logo.png" alt="" class="img-fluid" width="50px">
+                        </div>
+                        <div class="mx-2">
+                            <p class="m-0 p-0 fw-bold small-text">STC</p>
+                            <div class="d-flex ratings">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <small class="text-muted small-text">Coach No. 5698 AC</small>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-5 m-0 justify-content-between">
+                        <div>
+                            <small class="text-muted small-text">Depature</small><br>
+                            <small class="fw-bold small-text">09:00 AM</small>
+                        </div>
+                        <div>
+                            <small class="text-muted small-text">Arrival</small><br>
+                            <small class="fw-bold small-text">02:00 PM</small>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="d-flex justify-content-between">
+                    <div class="dot d-flex align-items-center">
+                        <p class="bg-light border"></p>
+                        <p class="small-text text-muted mx-1">Available</p>
+                    </div>
+
+                    <div class="dot d-flex align-items-center">
+                        <p class="bg-danger border"></p>
+                        <p class="small-text text-muted mx-1">Sold</p>
+                    </div>
+                    <div class="dot d-flex align-items-center">
+                        <p class="bg-warning border"></p>
+                        <p class="small-text text-muted mx-1">Booked</p>
+                    </div>
+                    <div class="dot d-flex align-items-center">
+                        <p class="bg-success border"></p>
+                        <p class="small-text text-muted mx-1">Selected</p>
+                    </div>
+                    
+                </div>
+                
+                <form class="bg-light mx-1 p-2">
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border " data-seat="A1">A1</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn border " data-seat="B1">B1</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C1</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D1</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A2</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn  border" data-seat="B1">B2</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C2</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D2</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A3</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn  border" data-seat="B1">B3</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C3</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-success border" data-seat="D1">D3</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A4</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="B1">B4</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C4</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D4</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A5</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-warning border" data-seat="B1">B5</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C5</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D5</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A6</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-warning border" data-seat="B1">B6</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C6</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D6</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A7</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-warning border" data-seat="B1">B7</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C7</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D7</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center ">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A8</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-warning border" data-seat="B1">B8</div>
+                        </div>
+                        <div class="col-2">
+                            
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C8</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D8</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center my-1">
+                        <div class="col-2">
+                            <div class="btn bg-white border" data-seat="A1">A9</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-warning border" data-seat="B1">B9</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C9</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="C1">C9</div>
+                        </div>
+                        <div class="col-2">
+                            <div class="btn bg-light border" data-seat="D1">D9</div>
+                        </div>
+                    </div>
+                    <button class="btn btn-success btn-blue d-block w-100 p-1 my-2">
+                        <a href="./detail.html" class="nav-link">Check out</a> 
+                    </button>
+                </form>
+
+            </div>
+        </div>
+      </div>
+
+
+
+
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <script src="./owlcarousel/js/owl.carousel.min.js"></script>
+
+    <script src="./script.js"></script>
+  
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+fonts 
+- Roboto
+- Metrophobic
+
+Colors
+- deep green : 089d49
+- dark yellow : edb558
+- dark orange : f88822
+- grays : 707070
+- blacks : 333333
+- pinks : ef5b5b
+
+- gradient : dfd154 | a5e167
+-lightgreen  :  4dcd6c
+- lightpink : ff8d8d
+- lightyellow : fbb671
+- gradientblue : 65c4e2 |  54e5d8
+
+Icons font awesome
